@@ -1,8 +1,24 @@
-# SnakeGame
-This is a Snake Game which is written in Python and uses the Turtle module.
-This is based on the "100 days of coding" course provided by Angela Yu on Udemy.
-This is game implements the Snake Game that used to be available on Nokia phones in the 90s.
-This is only an academic project to experiment and learn coding in Python.
 
-This code is written by Sarita Kannarath on 10-May-2024
-This is the initial version of the code
+# Snake Game
+
+This is a simple implementation of the classic Snake game using Python's Turtle module.
+
+## Files
+
+- `Snake.py`: Contains the `Snake` class which represents the snake in the game. It handles the movement and behavior of the snake.
+- `food.py`: Defines the `Food` class responsible for managing the food that the snake eats. It handles the appearance and position of the food.
+- `scoreboard.py`: Defines the `Scoreboard` class which keeps track of the player's score and displays it on the screen.
+- `main.py`: The main file that runs the game. It initializes the game window, sets up the game components, and contains the game loop.
+
+## Usage
+
+To play the game, run `main.py`. Use the arrow keys to control the direction of the snake. Eat the food to grow the snake and earn points. Avoid running into the walls or into the snake itself.
+
+## Dependencies
+
+- Python 3.x
+- Turtle module (included in Python standard library)
+
+## Author details
+
+This project was written by Sarita Kannarath on 10-May-2024
